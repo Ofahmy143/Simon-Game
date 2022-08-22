@@ -1,3 +1,45 @@
+@font-face {
+    font-family: joystix;
+    src: url("joystix\ monospace.ttf");
+}
+
+h1{
+    font-family: joystix;
+    text-align: center;
+}
 body{
+    /* background-color: rgb(16, 9, 107); */
+}
+button{
+    width: 200px;
+    height: 200px;
+    border: solid 10px black;
+    border-radius: 25%;
+    margin-right: 5px;
+
+
+}
+
+.gameButtons{
+
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+
+#green{
+     background-color: green;
+}
+#red{
     background-color: red;
+
+}
+#yellow{
+    background-color: yellow;
+
+}
+#blue{
+    background-color: blue;
+
 }
