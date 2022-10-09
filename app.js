@@ -13,6 +13,7 @@ var counter = 0;
 //cariable to store the blinked over button to be stored in the to be selected buttons array
 var checker = "String";
 
+// keyboard event listener
 document.addEventListener("keypress" , function(event){
     // checks if it's game over to reload
     if(end == true){
@@ -27,7 +28,7 @@ document.addEventListener("keypress" , function(event){
 }
 })
 
-
+//buttons event listener
 $("button").click(function(event){
     // store the id of the selected button
     buttonPressed = event.target.id;
@@ -68,29 +69,6 @@ $("button").click(function(event){
     // set animation and sound on button click
     buttonPressedAnimation(event.target.id , 100);
     buttonSound(event.target.id);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
